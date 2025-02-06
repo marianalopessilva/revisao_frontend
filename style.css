@@ -1,0 +1,23 @@
+.div-row {
+   display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: indianred;
+    justify-content: flex-end;
+    align-items: center;
+    height: 45px;
+}
+
+.div-column {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    background-color: lightgreen;
+}
+
+.div-filho {
+    margin: 5px;
+    padding: 5px;
+    background-color: white;
+}
